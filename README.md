@@ -1,4 +1,4 @@
-# bottomsheetcomponent
+# native-modal-bottomsheet
 
 A beautiful and customizable bottom sheet component for React Native, built on top of [@gorhom/bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet).
 
@@ -13,7 +13,7 @@ A beautiful and customizable bottom sheet component for React Native, built on t
 ## Installation
 
 ```bash
-npm install bottomsheetcomponent
+npm install native-modal-bottomsheet
 ```
 
 ### Peer Dependencies
@@ -47,7 +47,7 @@ cd ios && pod install
 ```tsx
 import React, { useState } from 'react';
 import { View, Text, Button } from 'react-native';
-import { BottomSheetComponent } from 'bottomsheetcomponent';
+import { BottomSheetComponent } from 'native-modal-bottomsheet';
 
 const App = () => {
   const [visible, setVisible] = useState(false);
@@ -179,7 +179,7 @@ export default App;
 ```tsx
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import { BottomSheetComponent } from 'bottomsheetcomponent';
+import { BottomSheetComponent } from 'native-modal-bottomsheet';
 
 const App = () => {
   const [visible, setVisible] = useState(false);
@@ -233,7 +233,7 @@ export default App;
 ## Requirements
 
 - React Native >= 0.73.0
-- React >= 18.2.0
+- React >= 18.0.0
 - @gorhom/bottom-sheet >= 4.6.4
 - react-native-gesture-handler >= 2.14.0
 - react-native-reanimated >= 3.0.0
