@@ -1,0 +1,38 @@
+{
+  "name": "bottomsheetcomponent",
+  "version": "1.0.0",
+  "description": "Bottom sheet component for React Native",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react-native",
+    "bottom-sheet",
+    "gorhom",
+    "ui"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@gorhom/bottom-sheet": "^4.6.4",
+    "react": "^19.2.4",
+    "react-native": "^0.83.1",
+    "react-native-gesture-handler": "^2.30.0",
+    "react-native-reanimated": "*"
+  },
+  "devDependencies": {
+    "@gorhom/bottom-sheet": "^4.6.4",
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "react-native-gesture-handler": "^2.14.0",
+    "react-native-reanimated": "^3.6.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
