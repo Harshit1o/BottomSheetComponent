@@ -10,7 +10,7 @@ A beautiful and customizable bottom sheet component for React Native, built on t
 📜 **Scrollable content** - Built-in scroll support for long content  
 ⚡ **Performant** - Powered by Reanimated 2 & Gesture Handler plus gorhom 
 
-## Installation
+## Installations
 
 ```bash
 npm install native-modal-bottomsheet
